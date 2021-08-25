@@ -284,14 +284,21 @@
 
 
 //下面代码输出什么
+//#include<stdio.h>
+//#define PI(x,y) x%y
+//int main()
+//{
+//	int a = 2;
+//	int b = 2;
+//	printf("%d\n", PI(b, a + 4));         //b % a + 4
+//	printf("%d\n", PI(b, (a + 4)));       //b % (a + 4)
+//	printf("%d\n", PI(b + 1, a + 1));     //b + 1 % a +1
+//	printf("%d\n", PI((b + 1), (a + 1))); //(b + 1) % (a + 1)
+//}
+
 #include<stdio.h>
-#define PI(x,y) x%y
 int main()
 {
-	int a = 2;
-	int b = 2;
-	printf("%d\n", PI(b, a + 4));         //b % a + 4
-	printf("%d\n", PI(b, (a + 4)));       //b % (a + 4)
-	printf("%d\n", PI(b + 1, a + 1));     //b + 1 % a +1
-	printf("%d\n", PI((b + 1), (a + 1))); //(b + 1) % (a + 1)
+	printf("hello world!\n");
+	return 0;
 }
