@@ -297,19 +297,27 @@
 //}
 
 
+//#include<stdio.h>
+//int Add(int x, int y)
+//{
+//	return x + y;
+//}
+//int main()
+//{
+//	int x = 0;
+//	int y = 0;
+//	printf("请输入x和y的值：");
+//	scanf("%d %d", &x, &y);
+//	int ret = Add(x, y);
+//	printf("hello world!\n");
+//	printf("%d\n", ret);
+//	return 0;
+//}
+
+
 #include<stdio.h>
-int Add(int x, int y)
-{
-	return x + y;
-}
 int main()
 {
-	int x = 0;
-	int y = 0;
-	printf("请输入x和y的值：");
-	scanf("%d %d", &x, &y);
-	int ret = Add(x, y);
-	printf("hello world!\n");
-	printf("%d\n", ret);
+	printf("hello world");
 	return 0;
 }
