@@ -318,6 +318,10 @@
 #include<stdio.h>
 int main()
 {
+	char ch[256] = { 0 };
+	printf("ÇëÊäÈëÒ»¸ö×Ö·û´®£º");
+	gets(ch);
+	printf("%s\n", ch);
 	printf("hello world");
 	return 0;
 }
